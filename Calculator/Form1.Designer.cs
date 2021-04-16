@@ -46,8 +46,8 @@
             this.line = new System.Windows.Forms.Label();
             this.stepen = new System.Windows.Forms.Label();
             this.tseloye = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
+            this.Rezult = new System.Windows.Forms.GroupBox();
+            this.Rezult.SuspendLayout();
             this.SuspendLayout();
             // 
             // whole
@@ -221,16 +221,16 @@
             this.tseloye.TabIndex = 17;
             this.tseloye.Text = "(Целая часть)";
             // 
-            // groupBox1
+            // Rezult
             // 
-            this.groupBox1.Controls.Add(this.rez);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.Location = new System.Drawing.Point(29, 133);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(384, 305);
-            this.groupBox1.TabIndex = 18;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Решение:";
+            this.Rezult.Controls.Add(this.rez);
+            this.Rezult.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Rezult.Location = new System.Drawing.Point(29, 133);
+            this.Rezult.Name = "Rezult";
+            this.Rezult.Size = new System.Drawing.Size(384, 305);
+            this.Rezult.TabIndex = 18;
+            this.Rezult.TabStop = false;
+            this.Rezult.Text = "Решение:";
             // 
             // Form1
             // 
@@ -254,10 +254,10 @@
             this.Controls.Add(this.numerator);
             this.Controls.Add(this.whole);
             this.Controls.Add(this.line);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.Rezult);
             this.Name = "Form1";
             this.Text = "Калькулятор";
-            this.groupBox1.ResumeLayout(false);
+            this.Rezult.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -283,7 +283,7 @@
         private System.Windows.Forms.Label line;
         private System.Windows.Forms.Label stepen;
         private System.Windows.Forms.Label tseloye;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox Rezult;
     }
 }
 
